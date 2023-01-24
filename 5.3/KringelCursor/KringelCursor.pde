@@ -1,9 +1,9 @@
-int n = 3;
+int Circles = 3;
 
 void draw() {
   background(255);
-  noFill();
-  for (int i = 0; i < n; i++) {
+  noFill(); //Sodass letzte Kreis die anderen nicht überlappt
+  for (int i = 0; i < Circles; i++) {
     ellipse(mouseX, mouseY, 30 + i * 10, 30 + i * 10);
   }
 }

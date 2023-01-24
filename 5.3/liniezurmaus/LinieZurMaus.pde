@@ -1,6 +1,6 @@
 void draw() {
   background(255);
-  for (int x = 0; x < mouseX; x += 5) {
-    point(x, mouseY);
+  for (int i = 0; i < mouseX; i += 5) {
+    point(i, mouseY);
   }
 }
